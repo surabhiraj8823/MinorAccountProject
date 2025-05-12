@@ -1,0 +1,97 @@
+<form [formGroup]="registerForm" (ngSubmit)="submitForm()">
+  <fieldset>
+    <legend>Personal Information</legend>
+    <div>
+      <label for="firstName">First Name:</label>
+      <input id="firstName" formControlName="first_name">
+    </div>
+    <div>
+      <label for="middleName">Middle Name:</label>
+      <input id="middleName" formControlName="middle_name">
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" formControlName="last_name">
+    </div>
+    <div>
+      <label for="emailId">Email ID:</label>
+      <input id="emailId" formControlName="email_id">
+    </div>
+  </fieldset>
+
+  <fieldset formGroupName="address">
+    <legend>Address</legend>
+    <div>
+      <label for="addressType">Type:</label>
+      <select id="addressType" formControlName="type">
+        <option value="">Select</option>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="line1">Line 1:</label>
+      <input id="line1" formControlName="line1">
+    </div>
+    <div>
+      <label for="line2">Line 2:</label>
+      <input id="line2" formControlName="line2">
+    </div>
+    <div>
+      <label for="line3">Line 3:</label>
+      <input id="line3" formControlName="line3">
+    </div>
+    <div>
+      <label for="city">City:</label>
+      <input id="city" formControlName="city">
+    </div>
+    <div>
+      <label for="state">State:</label>
+      <input id="state" formControlName="state">
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <input id="country" formControlName="country">
+    </div>
+    <div>
+      <label for="pinCode">Pin Code:</label>
+      <input id="pinCode" formControlName="pin_code">
+    </div>
+    <div>
+      <label for="phoneNumber">Phone Number:</label>
+      <input id="phoneNumber" formControlName="phone_number">
+    </div>
+  </fieldset>
+
+  <fieldset formGroupName="addressProof">
+    <legend>Address Proof</legend>
+    <div>
+      <label for="proofType">Type:</label>
+      <select id="proofType" formControlName="type">
+        <option value="">Select</option>
+        <option value="DL">DL</option>
+        <option value="Passport">Passport</option>
+        <option value="Voter">Voter</option>
+        <option value="Aadhar">Aadhar</option>
+      </select>
+    </div>
+    <div>
+      <label for="documentNumber">Document Number:</label>
+      <input id="documentNumber" formControlName="document_number">
+    </div>
+    <div>
+      <label for="aadharNumber">Aadhar Number:</label>
+      <input id="aadharNumber" formControlName="aadhar_number">
+    </div>
+    <div>
+      <label for="panNumber">PAN Number:</label>
+      <input id="panNumber" formControlName="pan_number">
+    </div>
+  </fieldset>
+
+  <div>
+    <button type="submit">Save</button>
+    <button type="button" (click)="resetForm()">Cancel</button>
+  </div>
+</form>

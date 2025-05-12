@@ -1,0 +1,124 @@
+{
+  "customerdetails": [
+    {
+      "form_id": "1",
+      "customer_id": "",
+      "first_name": "",
+      "middle_name": "",
+      "last_name": "",
+      "email_id": ""
+    },
+    {
+      "id": "7034",
+      "form_id": "1",
+      "first_name": "Utkarsh",
+      "middle_name": "",
+      "last_name": "pandey",
+      "email_id": "pandeyutkarsh2002@gmail.com"
+    },
+    {
+      "id": "e8a0",
+      "form_id": "1",
+      "customer_id": "129547",
+      "first_name": "Aayush",
+      "middle_name": "",
+      "last_name": "pandey",
+      "email_id": "aayushpandit2456@gmail.com"
+    },
+    {
+      "id": "4013",
+      "form_id": "3081",
+      "customer_id": "145542",
+      "first_name": "varun ",
+      "middle_name": "",
+      "last_name": "sai",
+      "email_id": "vs@hotmail.com"
+    }
+  ],
+  "address": [
+    {
+      "customer_id": "",
+      "type": "",
+      "line1": "",
+      "line2": "",
+      "line3": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "pin_code": "",
+      "phone_number": ""
+    },
+    {
+      "id": "7d3f",
+      "type": "Home",
+      "line1": "village babu ki khajuri",
+      "line2": "post babu ki khajuri",
+      "line3": "tehsil mehnagar",
+      "city": "azamgarh",
+      "state": "uttar pradesh",
+      "country": "india",
+      "pin_code": "276204",
+      "phone_number": "9118399621",
+      "customer_id": "560295"
+    },
+    {
+      "id": "bd41",
+      "customer_id": "129547",
+      "type": "Home",
+      "line1": "village babu ki khajuri",
+      "line2": "post babu ki khajuri",
+      "line3": "tehsil mehnagar",
+      "city": "azamgarh",
+      "state": "uttar pradesh",
+      "country": "india",
+      "pin_code": "276204",
+      "phone_number": "9118399621"
+    },
+    {
+      "id": "418c",
+      "customer_id": "145542",
+      "type": "Home",
+      "line1": "abc",
+      "line2": "def",
+      "line3": "ghi",
+      "city": "banglore",
+      "state": "karnatka",
+      "country": "india",
+      "pin_code": "178970",
+      "phone_number": "8998088056"
+    }
+  ],
+  "addressproof": [
+    {
+      "customer_id": "",
+      "type": "",
+      "document_number": "",
+      "aadhar_number": "",
+      "pan_number": ""
+    },
+    {
+      "id": "d259",
+      "type": "Aadhar",
+      "document_number": "4",
+      "aadhar_number": "318684438428",
+      "pan_number": "GJDPP0596N",
+      "customer_id": "560295"
+    },
+    {
+      "id": "12eb",
+      "customer_id": "129547",
+      "type": "Voter",
+      "document_number": "4",
+      "aadhar_number": "318684438428",
+      "pan_number": "GJDPP0596F"
+    },
+    {
+      "id": "2909",
+      "customer_id": "145542",
+      "type": "DL",
+      "document_number": "3",
+      "aadhar_number": "gvtfijbk;li;o",
+      "pan_number": "yftfyuho;"
+    }
+  ]
+}
