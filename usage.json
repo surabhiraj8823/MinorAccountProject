@@ -6,18 +6,18 @@
       "first_name": "",
       "middle_name": "",
       "last_name": "",
-      "email_id": "",
+      "email": "",
       "password": "",
       "id": "fa62"
     },
     {
-      "id": "9984",
-      "form_id": 5323,
-      "customer_id": "831603",
+      "id": "59bf",
+      "form_id": 5203,
+      "customer_id": "993680",
       "first_name": "Varun",
       "middle_name": "",
       "last_name": "Sai",
-      "email_id": "varun@gmail.com",
+      "email": "varun@gmail.com",
       "password": "varun@1234",
       "address": {
         "type": "Home",
@@ -27,34 +27,7 @@
         "city": "Bangalore",
         "state": "Karnataka",
         "country": "India",
-        "pin_code": "560098",
-        "phone_number": "8899776677"
-      },
-      "addressProof": {
-        "type": "Aadhar",
-        "document_number": "553664727788",
-        "aadhar_number": "553664727788",
-        "pan_number": "CGHPN1234V"
-      }
-    },
-    {
-      "id": "112f",
-      "form_id": 5323,
-      "customer_id": "831603",
-      "first_name": "Varun",
-      "middle_name": "",
-      "last_name": "Sai",
-      "email_id": "varun@gmail.com",
-      "password": "varun@1234",
-      "address": {
-        "type": "Home",
-        "line1": "Channasandra",
-        "line2": "R R Nagar",
-        "line3": "",
-        "city": "Bangalore",
-        "state": "Karnataka",
-        "country": "India",
-        "pin_code": "560098",
+        "pin_code": "560001",
         "phone_number": "8899776677"
       },
       "addressProof": {
@@ -77,7 +50,7 @@
       "id": "de8d"
     },
     {
-      "id": "2f39",
+      "id": "912a",
       "type": "Home",
       "line1": "Channasandra",
       "line2": "R R Nagar",
@@ -85,19 +58,7 @@
       "city": "Bangalore",
       "state": "Karnataka",
       "country": "India",
-      "pin_code": "560098",
-      "phone_number": "8899776677"
-    },
-    {
-      "id": "cb76",
-      "type": "Home",
-      "line1": "Channasandra",
-      "line2": "R R Nagar",
-      "line3": "",
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "country": "India",
-      "pin_code": "560098",
+      "pin_code": "560001",
       "phone_number": "8899776677"
     }
   ],
@@ -111,15 +72,8 @@
       "id": "14e4"
     },
     {
-      "id": "bb7e",
-      "type": "Aadhar",
-      "document_number": "553664727788",
-      "aadhar_number": "553664727788",
-      "pan_number": "CGHPN1234V"
-    },
-    {
-      "id": "625a",
-      "type": "Aadhar",
+      "id": "e708",
+      "type": "",
       "document_number": "553664727788",
       "aadhar_number": "553664727788",
       "pan_number": "CGHPN1234V"
@@ -575,8 +529,7 @@
             "Kargil"
           ]
         }
-      ],
-      "id": "79f2"
+      ]
     },
     {
       "name": "USA",
@@ -611,8 +564,7 @@
             "Laredo"
           ]
         }
-      ],
-      "id": "db35"
+      ]
     },
     {
       "name": "Canada",
@@ -662,8 +614,7 @@
             "Terrebonne"
           ]
         }
-      ],
-      "id": "d072"
+      ]
     },
     {
       "name": "Australia",
@@ -713,8 +664,7 @@
             "Gladstone"
           ]
         }
-      ],
-      "id": "8dc9"
+      ]
     },
     {
       "name": "Germany",
@@ -764,8 +714,7 @@
             "Heilbronn"
           ]
         }
-      ],
-      "id": "835d"
+      ]
     },
     {
       "name": "United Kingdom",
@@ -815,8 +764,7 @@
             "Aberystwyth"
           ]
         }
-      ],
-      "id": "d0c6"
+      ]
     }
   ]
 }
