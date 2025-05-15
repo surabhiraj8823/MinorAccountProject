@@ -1,0 +1,81 @@
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Table */
+  .customer-table th, .customer-table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .customer-table th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .customer-table td {
+    background-color: #fafafa;
+  }
+  
+  /* Action Buttons */
+  .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Alert */
+  .alert-info {
+    background-color: #eaf4fe;
+    border-color: #bde5ff;
+    color: #31708f;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
